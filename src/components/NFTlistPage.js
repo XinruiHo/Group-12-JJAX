@@ -124,7 +124,7 @@ useEffect(() => {
               <p>Description:{item.description}</p>
               <p>Price: {item.price}</p>
               <p>Seller: {item.seller}</p>
-              <Button onClick={() => Buy(ethers.BigNumber.from(item.tokenId))}>Buy</Button>
+              
               </div> 
       </Col>
     </Row>
